@@ -1,0 +1,11 @@
+.padre{
+  display: flex;
+}
+
+.row{
+  display: flex;
+}
+
+.col-4{
+  display: inline;
+}
