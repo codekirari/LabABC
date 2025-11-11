@@ -8,5 +8,9 @@ function getRandomColor() {
   return color;
 }
 
+function cambiarColor(letra) {
+    document.getElementById(letra).style.color = getRandomColor();
+}
+
 let titulo = document.getElementById("titulo");
 titulo.style.color = getRandomColor();
